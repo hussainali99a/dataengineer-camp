@@ -1,0 +1,30 @@
+[0m08:34:46.586432 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7219325954f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x721932b86960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7219325955b0>]}
+
+
+============================== 08:34:46.589787 | b1e334c4-e581-45a4-ad85-55e8ac0c1307 ==============================
+[0m08:34:46.589787 [info ] [MainThread]: Running with dbt=1.11.2
+[0m08:34:46.590559 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'introspect': 'True', 'log_format': 'default', 'profiles_dir': '/home/codespace/.dbt', 'invocation_command': 'dbt init', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'None', 'log_path': 'logs', 'target_path': 'None', 'quiet': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'version_check': 'True', 'printer_width': '80', 'debug': 'False', 'partial_parse': 'True', 'write_json': 'True', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'warn_error': 'None'}
+[0m08:34:57.565193 [debug] [MainThread]: Starter project path: /usr/local/python/3.12.1/lib/python3.12/site-packages/dbt/include/starter_project
+[0m08:34:57.570562 [info ] [MainThread]: 
+Your new dbt project "custom_postgres" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m08:34:57.571310 [info ] [MainThread]: Setting up your profile.
+[0m08:37:12.998656 [info ] [MainThread]: Profile custom_postgres written to /home/codespace/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m08:37:13.000809 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 146.47714, "process_in_blocks": "0", "process_kernel_time": 0.225607, "process_mem_max_rss": "123160", "process_out_blocks": "80", "process_user_time": 2.954761}
+[0m08:37:13.001539 [debug] [MainThread]: Command `dbt init` succeeded at 08:37:13.001423 after 146.48 seconds
+[0m08:37:13.002044 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7219348fe720>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x721932b0f170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x721931c52b70>]}
+[0m08:37:13.002709 [debug] [MainThread]: Flushing usage events
+[0m08:37:13.902290 [debug] [MainThread]: An error was encountered while trying to flush usage events
